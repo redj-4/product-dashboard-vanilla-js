@@ -71,3 +71,8 @@ async function fetchProductsAsync() {
       container.appendChild(productDiv);
     });
   } 
+
+  //Task 5: Reusable Error Handler 
+  function handleError(error) { //creating function to handle errors
+    console.error(`An error occurred: ${error.message}`);
+  }
